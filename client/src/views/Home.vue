@@ -31,7 +31,7 @@
   </div>
 </template>
 <script>
-import EventsList from '../components/EventsList';
+import EventsList from '@/components/EventsList';
 export default {
   name: 'home',
   components: {
