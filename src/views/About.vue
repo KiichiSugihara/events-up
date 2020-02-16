@@ -23,6 +23,11 @@
     </div>
   </div>
 </template>
+<script>
+export default {
+  name: 'about'
+};
+</script>
 <style lang="scss" scoped>
 .org-description {
   margin-top: 50px;
