@@ -49,5 +49,12 @@ app.get('/', (req, res) => {
 app.get('/events', (req, res) => {
   res.send(events);
 });
+
+app.get('/events/:id', (req, res) => {
+  const id = Number(req.params.id);
+  const event = events.find(event => event.id === id);
+  res.send(event);
+});
+
 // listen on the port
 app.listen(port);
