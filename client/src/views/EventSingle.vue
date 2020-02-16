@@ -34,7 +34,7 @@
 </template>
 <script>
 // NEW - import EventService
-import EventService from '@/services/EventService.js';
+import EventService from '@/services/EventService';
 export default {
   name: 'EventSingle',
   data() {
